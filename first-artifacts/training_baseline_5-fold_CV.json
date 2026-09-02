@@ -1,0 +1,28 @@
+{
+  "phase": "training baseline + 5-fold CV",
+  "dataset": {
+    "total_images": 8000,
+    "train_pool": 6800,
+    "test_held_out": 1200,
+    "classes": [
+      "defect",
+      "longberry",
+      "peaberry",
+      "premium"
+    ]
+  },
+  "model": {
+    "arch": "EfficientNet-B0",
+    "pretrained": "ImageNet",
+    "params": 4012672
+  },
+  "results": {
+    "single_split_test_acc": 0.9542,
+    "cv_test_mean": 0.9593,
+    "cv_test_std": 0.0039,
+    "cv_val_mean": 0.9578,
+    "cv_val_std": 0.0061,
+    "defect_recall": 0.92,
+    "macro_f1": 0.954
+  }
+}
