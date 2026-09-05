@@ -1,0 +1,26 @@
+{
+  "day": 3,
+  "phase": "calibration + OOD + TTA",
+  "calibration": {
+    "temperature": 0.6,
+    "ece_before": 0.0781,
+    "ece_after": 0.0132,
+    "improvement_factor": 5.92
+  },
+  "ood_detection": {
+    "method": "max softmax prob + cosine similarity",
+    "max_prob_threshold": 0.7678,
+    "cosine_threshold": 0.4705,
+    "in_dist_flagged_rate": "4/20 (20%)",
+    "synthetic_ood_flagged": "5/5 (100%)"
+  },
+  "tta": {
+    "4_view_acc": 0.9308,
+    "safe_tta_acc": 0.9558333333333333,
+    "plain_acc": 0.9542,
+    "use_tta": true,
+    "decision": "Use TTA"
+  },
+  "final_test_accuracy": 0.9558333333333333,
+  "final_predictor": "tta_safe"
+}

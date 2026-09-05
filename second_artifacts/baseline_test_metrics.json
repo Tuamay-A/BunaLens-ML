@@ -1,0 +1,39 @@
+{
+  "test_accuracy": 0.9541666666666667,
+  "best_val_acc": 0.9491666666666667,
+  "val_test_gap": 0.0050000000000000044,
+  "classes": [
+    "defect",
+    "longberry",
+    "peaberry",
+    "premium"
+  ],
+  "per_class": {
+    "defect": {
+      "precision": 0.9752650176678446,
+      "recall": 0.92,
+      "f1": 0.9468267581475128,
+      "support": 300
+    },
+    "longberry": {
+      "precision": 0.9316770186335404,
+      "recall": 1.0,
+      "f1": 0.9646302250803859,
+      "support": 300
+    },
+    "peaberry": {
+      "precision": 0.9695945945945946,
+      "recall": 0.9566666666666667,
+      "f1": 0.9630872483221476,
+      "support": 300
+    },
+    "premium": {
+      "precision": 0.9431438127090301,
+      "recall": 0.94,
+      "f1": 0.9415692821368948,
+      "support": 300
+    }
+  },
+  "macro_f1": 0.9540283784217354,
+  "checkpoint": "/content/models/baseline_efficientnet_b0.pt"
+}

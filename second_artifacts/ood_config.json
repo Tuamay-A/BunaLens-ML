@@ -1,0 +1,14 @@
+{
+  "method": "softmax + cosine (no covariance inversion)",
+  "max_prob_threshold": 0.7677878141403198,
+  "cosine_threshold": 0.4705354869365692,
+  "temperature": 0.6,
+  "validation_acceptance_pct": 95.0,
+  "in_distribution_flagged_in_test": 4,
+  "synthetic_ood_flagged": 5,
+  "class_means_shape": [
+    4,
+    1280
+  ],
+  "in_distribution_test_size": 20
+}

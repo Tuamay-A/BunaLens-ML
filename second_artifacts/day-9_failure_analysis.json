@@ -1,0 +1,49 @@
+{
+  "total_errors": 53,
+  "error_rate": 0.04416666666666667,
+  "errors_by_true_class": {
+    "defect": 24,
+    "longberry": 0,
+    "peaberry": 12,
+    "premium": 17
+  },
+  "top_error_pairs": [
+    {
+      "true": "defect",
+      "pred": "longberry",
+      "count": 11
+    },
+    {
+      "true": "premium",
+      "pred": "longberry",
+      "count": 10
+    },
+    {
+      "true": "defect",
+      "pred": "premium",
+      "count": 8
+    },
+    {
+      "true": "peaberry",
+      "pred": "premium",
+      "count": 7
+    },
+    {
+      "true": "defect",
+      "pred": "peaberry",
+      "count": 5
+    }
+  ],
+  "confidence_stats": {
+    "correct_mean": 0.9679462909698486,
+    "incorrect_mean": 0.7554342746734619,
+    "confident_errors": 26,
+    "confident_error_pct": 0.49056603773584906
+  },
+  "defect_recall": {
+    "total_defects": 300,
+    "caught": 276,
+    "missed": 24,
+    "recall": 0.92
+  }
+}
