@@ -1,0 +1,9 @@
+{
+  "plain_test_acc": 0.9542,
+  "tta_4view_test_acc": 0.9308,
+  "tta_safe_test_acc": 0.9558333333333333,
+  "use_tta": true,
+  "final_accuracy": 0.9558333333333333,
+  "final_predictor": "tta_safe",
+  "reasoning": "4-view TTA (with 90\u00b0/180\u00b0 rotations) hurt accuracy because coffee bean shape cues are rotation-sensitive. Only h-flip is label-preserving. TTA is used only if it strictly improves accuracy."
+}

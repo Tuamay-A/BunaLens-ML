@@ -1,0 +1,10 @@
+{
+  "temperature": 0.6,
+  "ece_before": 0.07814311318447002,
+  "ece_after": 0.013232222435164982,
+  "nll_before": 0.19947980344295502,
+  "nll_after": 0.1483830362558365,
+  "note": "T < 1 because model was underconfident (opposite of typical overconfidence).",
+  "tta_test_acc": 0.9308333333333333,
+  "non_tta_test_acc": 0.9542
+}
